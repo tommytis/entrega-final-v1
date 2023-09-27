@@ -1,0 +1,750 @@
+/* Color 1F2121 */
+/* Color EAE9E9 */
+
+/*-----------------------------------------------------PESTAÑA HOME-----------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+    font-size: 62.5%;
+    color: black;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.cabeza{
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 8rem;
+}
+
+.bajada{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+}
+
+.perfil{
+    background-color: #1F2121;
+}
+
+
+
+/*------------------------NAVBAR--------------------------*/
+
+.barra{
+    margin-top: 8rem;
+    display: block;
+    padding: 3rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tags{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+li:hover{
+    color: black;
+    background: grey;
+    border-radius: 7px;
+}
+
+li{
+    list-style: none;
+    color: black;
+    font-family: 'Poppins', sans-serif
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*------------------------TARJETA--------------------------*/
+
+.tarjeta{
+    display: flex;
+    background-color: #1F2121;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    max-width: 1200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    margin-top: 200px;
+    align-items: center;
+    color: white;
+}
+
+.letra{
+    margin-top: px;
+    margin-left: 90px;
+}
+
+.kamikaze{
+    margin-left: 90px;
+}
+
+.linea{
+    text-align: center;
+    padding-top: 20rem;
+
+}
+/*------------------------CANCIONES--------------------------*/
+
+.discos{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    
+}
+
+.medio{
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.algunos{
+    margin-top: 15rem;
+    margin-left: 30px;
+}
+
+.friso1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    margin: 0;
+    margin-top: 300px;
+}
+
+.cancion1 {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    max-height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.recuadro {
+    flex: 1;
+    padding-right: 100px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    font-family: 'Yeseva One', cursive;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    font-size: 2rem;
+}
+
+.spotify-iframe {
+    width: 300px;
+    height: 500px;
+    border: none;
+    margin-top: 150px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 250px;
+}
+
+#carouselExample{
+    margin-top: 300px;
+}
+
+#carouselExampleCaptions{
+    margin-top: 300px;
+
+}
+
+.logo{   
+    text-align: center;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+}
+
+.bajologo{
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 10rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/*------------------------FOOTER--------------------------*/
+
+footer{
+    background-color: #1F2121;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+footer ul{
+    padding: 0;
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.footer1 li{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer1 h4{
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+footer,
+li {
+    color: white;
+}
+
+footer,
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*-----------------------------------------------------BYOGRAPHY-----------------------------------------------------------*/
+
+.byography{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.loguito{
+    text-align: center;
+}
+
+.datatext{
+    padding: 5rem 10rem 10rem 10rem;
+    margin-top: 2rem;
+    background-color: #1F2121;
+    border-radius: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.in{
+    margin-top: 4rem;
+}
+
+.in,
+p{
+    margin-top: 5rem;
+}
+
+.datatext,
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+}
+
+.datatext,
+h3{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 2rem;
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+
+
+/*-----------------------------------------------------LIVE-----------------------------------------------------------*/
+
+.titlelive{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+}
+
+.live1{
+    display: flex;
+    margin-top: 7rem;
+}
+
+.txt{
+    margin-left: 14rem;
+}
+
+.envivo{
+    margin-right: 13rem;
+}
+
+.concerts{
+    margin-top: 20rem;
+}
+
+.txt1{
+    margin-right: 40rem;
+}
+
+.envivo1{
+    margin-left: 33rem
+}
+
+
+/*-----------------------------------------------------CONTACT-----------------------------------------------------------*/
+
+form {
+    width: 900px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20rem;
+    margin: 10rem 0 0 46rem;
+    margin-bottom: 20rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+.logolive{
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.bajologolive{
+    text-align: center;
+}
+
+/*------------------------DISCOGRAPHY--------------------------*/
+
+.spoty1{
+    margin-left: 26rem;
+}
+
+.spoty2{
+    margin-left: 35rem;
+}
+
+.spoty3{
+    margin-left: 20rem;
+}
+
+.spoty4{
+    margin-left: 27rem;
+}
+
+.spoty5{
+    margin-left: 28rem;
+}
+
+.spoty6{
+    margin-left: 29rem;
+}
+
+.spoty7{
+    margin-left: 29rem;
+}
+
+.titledyscography{
+    margin-left: 16rem;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6rem;
+}
+
+.titlebio{
+    margin-left: 16rem;
+    margin-bottom: 9rem;
+    margin-top: 10rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+}
+
+.blomi{
+    display: flex;
+}
+
+.listadecanciones{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10rem;
+    font-size: 1.8rem;
+    margin-left: 9rem;
+}
+
+.listadecanciones1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 96px;
+    font-size: 1.8rem;
+    margin-left: 9rem;
+}
+
+.bloque{
+    background-color: #808C8C;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque2{
+    background-color: #345C7B;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque3{
+    background-color: #4C5340;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque4{
+    background-color: #E5D0A1;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque5{
+    background-color: #10352D;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque6{
+    background-color: #019473;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.bloque7{
+    background-color: #A6BC48;
+    padding: 2%;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+/*------------------------BOTONES--------------------------*/
+
+.youtube-button {
+    border: 3px solid #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1.5rem;
+}
+
+.youtube-button:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.spotify-button {
+    border: 3px solid #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+/*-----------------------------------------------------ESTILOS MOBILE-----------------------------------------------------------*/
+
+@media (max-width: 480px){
+
+    h1{
+        text-align: center;
+        font-size: 7rem;
+    }
+
+    .bajada{
+        font-size: 3rem;
+    }
+
+    .linea{
+        display: none;
+    }
+
+    .front{
+        height: 350px;
+    }
+
+    .imglogo{
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .tarjeta{
+        background-color: transparent;
+        display: block;
+        text-align: center;
+    }
+
+    .letra{
+        font-size: 20px;
+    }
+
+
+    .algunos{
+        height: 200px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .friso1{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .recuadro p{
+        font-size: 13px;
+        padding-right: 2px;
+
+    }
+
+    #carouselExampleIndicators{
+        margin-top: 900px;
+
+    }
+
+    #carouselExample{
+        margin-top: 850px;
+    }
+
+    #carouselExampleCaptions{
+        margin-top: 930px;
+    }
+    
+
+    .cancion1{
+        display: block;
+
+    }
+
+    .spotify-iframe{
+        margin-top: 2px;
+
+    }
+
+    .logonegrobajo{
+        width: 80%;
+    }
+
+    .logo{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .bajologo{
+        font-size: 15px;
+    }
+
+
+    .letra{
+        color: black;
+        display: block;
+        text-align: center;
+    }
+
+    .datatext{
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+
+    .blomi{
+        display: block;
+    }
+
+
+    .listadecanciones li{
+        color: black;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .bloque{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .bloque2{
+        background-color: white;
+    }
+
+    .bloque3{
+        background-color: white;
+    }
+
+    .bloque4{
+        background-color: white;
+    }
+
+    .bloque5{
+        background-color: white;
+    }
+
+    .bloque6{
+        background-color: white;
+    }
+
+    .bloque7{
+        background-color: white;
+    }
+    
+    .listadecanciones1 li{
+        color: black;
+    }
+
+
+    .blacklogo{
+        height: 50px;
+    }
+
+    .bajologolive{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 100px
+    }
+
+    .form{
+        margin-left: 1px;
+        padding-right: 450px;
+    }
+
+    .footer1{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 24px;   
+    }
+
+    .live1{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .envivo{
+        height: 270px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .titlelive{
+        font-size: 40px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    .txt1{
+        font-size: 15px;      
+    
+    }
+
+    .tags{
+        display: block;
+        text-align: start;
+        margin-bottom: 1px;
+        
+    }
+
+}
+
+/*-----------------------------------------------------BIOGRAPHY-----------------------------------------------------------*/
